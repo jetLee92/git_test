@@ -114,6 +114,7 @@ public class IndexActivity extends BaseActivity {
 		DisplayUtil.setStatusBarFullTranslucent(this);
 		ButterKnife.bind(this);
 		initUI();
+		// 这是master的修改
 		requestData();
 		SharePreferenceUtils.putString(this, SharePreferenceUtils.USER_CONFING, SharePreferenceUtils.USER_CONFING_ADVANCE_READ, C.CONSTANTS_READ_LOADING_ONE + "");
 		indexDrawer.setDrawerListener(new DrawerLayout.SimpleDrawerListener() {
