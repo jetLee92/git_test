@@ -116,6 +116,7 @@ public class IndexActivity extends BaseActivity {
 		initUI();
 		// 这是master的修改
 		// 这是branch2的修改
+		// 这是master的新增
 		requestData();
 		SharePreferenceUtils.putString(this, SharePreferenceUtils.USER_CONFING, SharePreferenceUtils.USER_CONFING_ADVANCE_READ, C.CONSTANTS_READ_LOADING_ONE + "");
 		indexDrawer.setDrawerListener(new DrawerLayout.SimpleDrawerListener() {
