@@ -113,6 +113,7 @@ public class IndexActivity extends BaseActivity {
 		setContentView(R.layout.activity_index);
 		DisplayUtil.setStatusBarFullTranslucent(this);
 		ButterKnife.bind(this);
+		// 这是branch3啊的新增
 		initUI();
 		// 这是master的修改
 		// 这是branch2的修改
