@@ -6,3 +6,4 @@ branch
 branch2
 branch3
 测试merge的
+测试rebase
